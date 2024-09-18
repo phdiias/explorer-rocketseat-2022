@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+  --amarelo: #FF9900;
+  --cinza: #7D7987;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+}
+
+#hero {
+  width: 100%;
+  max-width: 590px;
+  text-align: center;
+  margin: 0 34.4rem 7.2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.2rem;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.hero-text {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.hero-text h1 {
+  width: 100%;
+  max-width: 56.2rem;
+  font-size: 4.9rem;
+  font-weight: 400;
+}
+
+.hero-text h1 span {
+  font-size: 4.9rem;
+  color: var(--amarelo);
+  font-weight: 700;
+}
+
+.hero-text-description {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hero-text-description p {
+  color: var(--cinza);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.hero-text-description p span {
+  font-size: 1.4rem;
+  color: var(--amarelo);
+  font-weight: 400;
+}
+
+.hero-text-description p strong {
+  font-size: 1.4rem;
+  color: var(--cinza);
+  font-weight: 700;
+}
+
+#balls {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem;
+}
+
+footer {
+  width: 100%;
+  max-width: 582px;
+  margin: 0 34.8rem 3.3rem;
+  padding: 0.8rem;
+  border-top: #ECEFF2 solid 0.1rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+footer a {
+  color: var(--amarelo);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
